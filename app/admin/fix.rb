@@ -1,4 +1,5 @@
 ActiveAdmin.register Fix do
+  permit_params :customer_id, :address_id, :category_id
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
